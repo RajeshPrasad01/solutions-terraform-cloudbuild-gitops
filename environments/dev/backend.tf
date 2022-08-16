@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "myapp-java-flex-tfstate"
     prefix = "env/dev"
   }
 }
